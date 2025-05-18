@@ -43,8 +43,8 @@ The repository offers a complete pipeline from data preprocessing through model 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/SynthAIr/synflyinf.git
-   cd synflyinf
+   git clone https://github.com/SynthAIr/SynFlyInf.git
+   cd SynFlyInf
    ```
 
 2. **(Recommended) Create and activate a virtual environment:**
