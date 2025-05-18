@@ -52,7 +52,7 @@ The repository offers a complete pipeline from data preprocessing through model 
   - On Unix/macOS:
     ```bash
     python -m venv venv
-     source venv/bin/activate  
+    source venv/bin/activate  
     ```
 
   - On Windows:
