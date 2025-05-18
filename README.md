@@ -36,6 +36,7 @@ The repository offers a complete pipeline from data preprocessing through model 
 
 - Python 3.9 or newer.
 - At least 16GB RAM (32GB+ recommended for larger datasets).
+-	CUDA-compatible GPU (recommended for training TVAE).
 - Sufficient disk space for storing models and synthetic datasets.
 
 ### 🛠️ Installation
@@ -114,38 +115,38 @@ The repository offers a complete pipeline from data preprocessing through model 
 
 ### ``1_ExploratoryAnalysis.ipynb``
 
-- Preprocessing and feature engineering of BTS flight records for flights departing from or arriving at New York in January 2023
-- Exploratory data analysis
-- Integration of weather data (METARs)
-- Feature selection leading to three distinct dataframes used for generative modeling experiments
+- Preprocessing and feature engineering of BTS flight records for flights departing from or arriving at New York in January 2023.
+- Exploratory data analysis.
+- Integration of weather data (METARs).
+- Feature selection leading to three distinct dataframes used for generative modeling experiments.
 
 ### ``2_UC2-FlightDelayPrediction.ipynb``
 
-- Five synthetic data generation experiments
-- Diversity assessment: Verifies whether the synthetic dataset captures the variability of the real data
-- Statistical assessment: Compares distributions and correlation structures between real and synthetic data
-- Fidelity assessment: Evaluates the ability of classification algorithms to distinguish between real and synthetic data
-- Utility assessment: Trains machine learning models for arrival delay prediction using synthetic data, and compares their performance to models trained on real data
+- Five synthetic data generation experiments.
+- Diversity assessment: Verifies whether the synthetic dataset captures the variability of the real data.
+- Statistical assessment: Compares distributions and correlation structures between real and synthetic data.
+- Fidelity assessment: Evaluates the ability of classification algorithms to distinguish between real and synthetic data.
+- Utility assessment: Trains machine learning models for arrival delay prediction using synthetic data, and compares their performance to models trained on real data.
 
 ### ``3_UC6-FlightSchedulesPrediction.ipynb``
 
-- Reuses the synthetic data generated in UC2
-- Diversity, statistical, and fidelity assessments are identical to UC2
-- Utility assessment: Trains machine learning models on synthetic data to predict departure and arrival delays, and infers flight schedules from the predicted delay values
+- Reuses the synthetic data generated in UC2.
+- Diversity, statistical, and fidelity assessments are identical to UC2.
+- Utility assessment: Trains machine learning models on synthetic data to predict departure and arrival delays, and infers flight schedules from the predicted delay values.
 
 ### ``4_UC1-TurnaroundTimePrediction.ipynb``
 
-- Introduces two new features: *"Actual Turnaround Time"* and *"Scheduled Turnaround Time"*
-- Includes two synthetic data generation experiments
-- Diversity, statistical, and fidelity assessments
-- Utility assessment: Uses synthetic data to train models for predicting turnaround times in both tactical (scenario 1) and pre-tactical (scenario 2) phases
+- Introduces two new features: *"Actual Turnaround Time"* and *"Scheduled Turnaround Time"*.
+- Includes two synthetic data generation experiments.
+- Diversity, statistical, and fidelity assessments.
+- Utility assessment: Uses synthetic data to train models for predicting turnaround times in both tactical (scenario 1) and pre-tactical (scenario 2) phases.
 
 ### ``5_UC5-FlightDiversionPrediction.ipynb``
 
-- Adds a new feature: *"Diversion Label"*
-- One synthetic data generation experiment: generates synthetic instances of diverted flights to augment the historical dataset and address class imbalance
-- Diversity, statistical, and fidelity assessments 
-- Utility assessment: Compares the performance of flight diversion prediction models trained on real data versus models trained on the augmented dataset
+- Adds a new feature: *"Diversion Label"*.
+- One synthetic data generation experiment: generates synthetic instances of diverted flights to augment the historical dataset and address class imbalance.
+- Diversity, statistical, and fidelity assessments.
+- Utility assessment: Compares the performance of flight diversion prediction models trained on real data versus models trained on the augmented dataset.
 
 ## 🙏 Attributions and Acknowledgments
 
