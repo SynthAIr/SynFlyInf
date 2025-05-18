@@ -1,0 +1,40 @@
+{
+    "tables": {
+        "real_flight_information": {
+            "columns": {
+                "Unique Carrier Code": {
+                    "sdtype": "categorical"
+                },
+                "Tail Number": {
+                    "sdtype": "categorical"
+                },
+                "Origin Airport ID": {
+                    "sdtype": "categorical"
+                },
+                "Destination Airport ID": {
+                    "sdtype": "categorical"
+                },
+                "Scheduled Departure Time UTC": {
+                    "sdtype": "datetime"
+                },
+                "Actual Departure Time UTC": {
+                    "sdtype": "datetime"
+                },
+                "Wheels Off Time UTC": {
+                    "sdtype": "datetime"
+                },
+                "Wheels On Time UTC": {
+                    "sdtype": "datetime"
+                },
+                "Scheduled Arrival Time UTC": {
+                    "sdtype": "datetime"
+                },
+                "Actual Arrival Time UTC": {
+                    "sdtype": "datetime"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}

@@ -1,0 +1,21 @@
+# Python byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+
+# CatBoost information directory
+catboost_info/
+
+# Custom directories to ignore
+iframe_figures/
+
+# Ignore large raw data files
+data/raw_data/decoded_metar_data_113_2023-01-01_00-00_to_2023-02-01_23-59.pkl
+data/raw_data/metar_data_113_2023-01-01_00-00_to_2023-02-01_23-59.csv

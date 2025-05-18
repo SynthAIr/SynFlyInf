@@ -1,0 +1,15 @@
+catboost==1.2.8
+imbalanced-learn==0.12.4
+lightgbm==4.6.0
+matplotlib==3.5.2
+metar==1.11.0
+numpy==1.24.4
+pandas==1.4.4
+plotly==6.0.1
+pytz==2022.1
+requests==2.32.3
+scikit-learn==1.0.2
+sdv==1.20.0
+seaborn==0.11.2
+tabulate==0.8.10
+xgboost==3.0.1
