@@ -127,6 +127,7 @@ The repository offers a complete pipeline from data preprocessing through model 
 - Statistical assessment: Compares distributions and correlation structures between real and synthetic data.
 - Fidelity assessment: Evaluates the ability of classification algorithms to distinguish between real and synthetic data.
 - Utility assessment: Trains machine learning models for arrival delay prediction using synthetic data, and compares their performance to models trained on real data.
+- For details of the analysis, refer to: *“Synthetic Flight Data Generation Using Generative Models”* by K. Aly and A. Sharpanskykh, available on IEEE Xplore: [https://ieeexplore.ieee.org/document/10976960](https://ieeexplore.ieee.org/document/10976960).
 
 ### ``3_UC6-FlightSchedulesPrediction.ipynb``
 
